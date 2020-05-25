@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet  author="Edvard_eros"  id="1">
+        <createTable tableName="roadroad">
+            <column  name="roadNumber"  type="int"/>
+            <column  name="carNumber"  type="int"/>
+            <column  name="driverName"  type="text"/>
+            <column  name="departure"  type="text"/>
+            <column  name="arrival"  type="text"/>
+            <column  name="month"  type="text"/>
+            <column  name="year"  type="text"/>
+            <column  name="distance"  type="int"/>
+            <column  name="consumption"  type="real"/>
+        </createTable>
+    </changeSet>
+
+</databaseChangeLog>
